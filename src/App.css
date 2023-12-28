@@ -1,0 +1,12 @@
+.container {
+    width: 1200px ;
+    margin: 0 auto;
+}
+h6 {
+    font-size: 14px;
+    font-weight: bold;
+}
+p {
+    font-size: 9px;
+    font-weight: 400;
+}

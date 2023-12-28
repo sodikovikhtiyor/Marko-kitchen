@@ -1,0 +1,51 @@
+@import "../Color.scss";
+.strength {
+  display: flex;
+  //   justify-content: space-between;
+  gap: 8rem;
+  align-items: center;
+  position: relative;
+  color: $dark;
+  .whiteKit {
+    height: 500px;
+    width: auto;
+    margin-top: -3rem;
+    margin-left: 0rem;
+    display: inline-block;
+  }
+  .st-text {
+    text-align: left;
+    width: 100%;
+    h5 {
+      font-size: 36px;
+      font-family: "Lora", serif;
+    }
+    hr {
+      display: inline-block;
+      width: 62%;
+      vertical-align: middle;
+      border: 1px solid $dark;
+    }
+    .text-cards {
+      display: flex;
+      justify-content: start;
+      gap: 2rem;
+      .text-card {
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        margin: 3rem 0;
+        width: 290px;
+        img {
+          width: 70px;
+          height: 70px;
+        }
+        p {
+          font-size: 18px;
+          margin-left: 25px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

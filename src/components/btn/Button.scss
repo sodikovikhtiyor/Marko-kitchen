@@ -1,0 +1,59 @@
+@import "../Color.scss";
+.btn {
+  padding: 18px 32px 18px 32px;
+  color: #fff;
+  border: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.btnBlueBg {
+  background: $dark;
+  &:hover {
+    background: #fff;
+    color: $dark;
+    border: 1px solid $dark;
+  }
+}
+.btnLightBg {
+  background: #015b91;
+}
+.btnGreyBg {
+  background: #e1e1e1;
+  color: $dark;
+  &:hover {
+    border: 1px solid $dark;
+  }
+}
+.btnDarkBg {
+  background: #011a2a;
+}
+.btnNew {
+  background: transparent;
+}
+.btnNewBlue {
+  border: 1px solid $dark;
+  color: $dark;
+  &:hover {
+    background: $dark;
+    color: #fff;
+  }
+}
+.btnNewYellow {
+  border: 1px solid #f2a22e;
+  color: #f2a22e;
+}
+.btnNewDark {
+  border: 1px solid #011a2a;
+  color: #011a2a;
+}
+.btnNewWhite {
+  border: 1px solid #fff;
+  color: #fff;
+  &:hover {
+    background: #fff;
+    color: $dark;
+  }
+}

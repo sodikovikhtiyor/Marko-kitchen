@@ -1,0 +1,102 @@
+@import "../Color.scss";
+.portfolio {
+  padding: 3rem 0;
+  position: relative;
+  hr {
+    position: absolute;
+    width: 150px;
+    border: 1px solid $dark;
+    left: 0;
+    top: 4.6%;
+  }
+  h1 {
+    font-size: 36px;
+    font-family: "Lora", serif;
+    padding: 1rem 0;
+  }
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 0;
+  }
+  .cards {
+    display: flex;
+    // flex-wrap: wrap;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+    gap: 10rem;
+    .card {
+      padding: 3rem;
+      padding-left: 9rem;
+      border: 1px solid #000;
+      background: #fbf6ef;
+      display: flex;
+      gap: 4rem;
+      position: relative;
+      .image {
+        width: 260px;
+        background: $dark;
+        position: absolute;
+        left: -150px;
+        top: 27px;
+        border: none;
+        .img-bottom {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          padding: 10px;
+          .img-text {
+            text-align: center;
+            h1 {
+              font-size: 18px;
+              font-weight: 700;
+              padding: 0;
+              span {
+                color: #b6b6b6;
+                font-size: 10px;
+              }
+            }
+          }
+          .img-sqs {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+      }
+      .card-text {
+        color: $dark;
+        h6 {
+          font-size: 24px;
+          font-weight: 700;
+          font-family: "Lore", serif;
+          margin-bottom: 1rem;
+        }
+        p {
+          font-size: 16px;
+          margin-bottom: 2rem;
+        }
+        .card-nums {
+          display: flex;
+          gap: 3rem;
+          align-items: center;
+          margin-bottom: 1rem;
+          // justify-content: space-between;
+          p {
+            padding-right: 2rem;
+            border-right: 1px solid #6f6f6f;
+            line-height: 2rem;
+          }
+        }
+        span {
+          display: block;
+          margin-bottom: 2rem;
+          color: #6f6f6f;
+        //   font-weight: 600;
+        }
+        .btn {
+            margin-right: 1rem;
+        }
+      }
+    }
+  }
+}

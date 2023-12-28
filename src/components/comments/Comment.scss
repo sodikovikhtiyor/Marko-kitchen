@@ -1,0 +1,19 @@
+@import "../Color.scss";
+
+.comment {
+  background: $head;
+  padding: 18px 32px;
+  border-radius: 15px;
+//   display: inline-block;
+  position: relative;
+
+  p {
+    font-size: 18px;
+    line-height: 24.51px;
+  }
+  img {
+    width: 31px;
+    position: absolute;
+    top: 30%;
+  }
+}
